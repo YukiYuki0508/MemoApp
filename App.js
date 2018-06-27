@@ -1,18 +1,11 @@
-import React from 'react';
-import {
-  StyleSheet,
-  Text,
-  View
-} from 'react-native';
+import React from "react";
+import { StyleSheet, Text, View } from "react-native";
 
 export default class App extends React.Component {
   render() {
-    return ( < View style = {
-        styles.container
-      } >
-      <
-      Text > Hello!! < /Text> </
-      View >
+    return (<View style={styles.container}>
+      <Text>Hi!</Text>
+    </View>
     );
   }
 }
@@ -20,8 +13,8 @@ export default class App extends React.Component {
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    backgroundColor: '#fff',
-    alignItems: 'center',
-    justifyContent: 'center',
-  },
+    backgroundColor: "#fff",
+    alignItems: "center",
+    justifyContent: "center"
+  }
 });
